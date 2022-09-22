@@ -2,9 +2,11 @@
 /* using 21px @ 1.333 ratio modular scale*/
 
 html {
+	padding: 0.75em; /* 12/16 = 0.75*/
 	background-color: #8b324d;
 	color: #97c3c3;
 }
 body {
-	
+	font-size: 1.3125em /* 21/16 = 1.3125em*/
 }
+
