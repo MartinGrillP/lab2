@@ -26,9 +26,13 @@ div {
 	padding-top: 1em;
 }
 
+#input_boxes label {
+		display: block;
+}
+
 @media screen and (min-width: 46.875em)/* 750 / 16 = 46.875 */ {
 	
-	#input_boxes {
+	#input_boxes label {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: auto auto auto;
