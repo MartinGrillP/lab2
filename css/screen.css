@@ -2,41 +2,41 @@
 /* using 21px @ 1.333 ratio modular scale*/
 
 html {
-	padding: 0.739em; /* 11.818/16 = 0.739*/
-	background-color: #8b324d;
-	color: #f3eaed;
-	
+  padding: 0.739em; /* 11.818/16 = 0.739*/
+  background-color: #8b324d;
+  color: #f3eaed;
+  
 }
 body {
-	font-size: 1.313em /* 21/16 = 1.313em*/;
-	padding: 1em;
+  font-size: 1.313em /* 21/16 = 1.313em*/;
+  padding: 1em;
 }
 
 h1 {
-	font-size: 1.777em /* 37.315/21 = 1.777 */;
-	padding-bottom: 1em;
-	font-weight: bold;
+  font-size: 1.777em /* 37.315/21 = 1.777 */;
+  padding-bottom: 1em;
+  font-weight: bold;
 }
 
 button {
-	padding: 0.317em /* 6.651/21 */;
+  padding: 0.317em /* 6.651/21 */;
 }
 
 div {
-	padding-top: 1em;
+  padding-top: 1em;
 }
 
 #input_boxes label {
-		display: block;
+    display: block;
 }
 
 @media screen and (min-width: 46.875em)/* 750 / 16 = 46.875 */ {
-	
-	#input_boxes label {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: auto auto auto;
-	}
+  
+  #input_boxes label {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+  }
 
 }
 
