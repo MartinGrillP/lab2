@@ -18,6 +18,15 @@ h1 {
 	font-weight: bold;
 }
 
+@media screen and (min-width: 46.875em)/* 750 / 16 = 46.875 */ {
+	
+	#input_boxes {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto;
+	}
+
+}
 
 
 
