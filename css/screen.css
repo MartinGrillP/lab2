@@ -7,7 +7,17 @@ html {
 	color: #97c3c3;
 }
 body {
-	font-size: 1.3125em /* 21/16 = 1.3125em*/
-	
+	font-size: 1.3125em /* 21/16 = 1.3125em*/;
+	padding: 1em;
 }
+
+h1 {
+	font-size: 1.428em /* 30/21 = 1.428 */;
+	padding-bottom: 1em;
+}
+
+li {
+	padding: 0.238em /*5/21=0.238 */
+}
+
 
