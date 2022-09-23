@@ -2,21 +2,23 @@
 /* using 21px @ 1.333 ratio modular scale*/
 
 html {
-	padding: 0.75em; /* 12/16 = 0.75*/
+	padding: 0.739em; /* 11.818/16 = 0.739*/
 	background-color: #8b324d;
 	color: #f3eaed;
 	
 }
 body {
-	font-size: 1.3125em /* 21/16 = 1.3125em*/;
+	font-size: 1.313em /* 21/16 = 1.313em*/;
 	padding: 1em;
 }
 
 h1 {
-	font-size: 1.428em /* 30/21 = 1.428 */;
+	font-size: 1.777em /* 37.315/21 = 1.777 */;
 	padding-bottom: 1em;
 	font-weight: bold;
 }
+
+
 
 
 
